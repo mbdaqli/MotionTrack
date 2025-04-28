@@ -1,11 +1,11 @@
-🦋 Butterfly Wing Motion Tracker
+# Butterfly Wing Motion Tracker
 (Dense Optical Flow with ROI Masking)
 
 This project tracks and visualizes the motion of butterfly wings using dense optical flow (Farneback method).
 It focuses exclusively on the butterfly area by applying a custom mask and filters out background noise like leaves and flowers.
 All outputs (images and videos) are automatically saved inside Google Drive.
 
-📂 Project Structure
+# Project Structure
 Dense Optical Flow (Farneback) for pixel-wise motion tracking.
 
 ROI Masking: Focus only on the butterfly region.
@@ -16,7 +16,7 @@ Video Output: Save the processed motion visualization as .mp4.
 
 Google Drive Saving: Results are directly saved into Drive folders.
 
-🚀 How It Works
+# How It Works
 Mounts your Google Drive.
 
 Loads input butterfly video.
@@ -31,7 +31,7 @@ Filters out low-speed or static motions.
 
 Generates and saves a motion visualization video to Google Drive.
 
-🛠️ Requirements
+#Requirements
 Python 3.x
 
 OpenCV (opencv-python)
@@ -46,7 +46,7 @@ Edit
 pip install opencv-python
 If using Google Colab, simply mount Google Drive (no extra installation needed).
 
-📋 How to Run
+# How to Run
 Place your butterfly video inside Google Drive, for example:
 
 swift
@@ -69,7 +69,7 @@ Contents:
 
 butterfly_wing_motion_masked.mp4 (masked butterfly wing motion visualization)
 
-🎥 Example Result
+# Example Result
 Only butterfly wings moving are visualized.
 
 Background and flowers are fully masked and hidden.

@@ -33,24 +33,18 @@ Filter out low-speed or static motions.
 
 Generate and save a motion visualization video to Google Drive.
 
-#Requirements
+# Requirements
 Python 3.x
-
 OpenCV (opencv-python)
-
 Google Colab (recommended) or a local machine with Google Drive access
-
 Install required libraries:
-
 bash
 Copy
 Edit
 pip install opencv-python
 If using Google Colab, simply mount Google Drive (no extra installation needed).
-
 # How to Run
 Place your butterfly video inside Google Drive, for example:
-
 swift
 Copy
 Edit

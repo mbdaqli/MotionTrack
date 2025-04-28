@@ -1,6 +1,7 @@
-# Butterfly Wing Motion Tracker
+# Butterfly Wing Motion Tracker (Dense Optical Flow with ROI Masking)
 ![Result](results/Butterfly.png)
-(Dense Optical Flow with ROI Masking)
+
+Video Source: https://www.pexels.com/video/a-butterfly-on-a-flower-9672686/
 This project tracks and visualizes the motion of butterfly wings using dense optical flow (Farneback method).
 It focuses exclusively on the butterfly area by applying a custom mask and filters out background noise like leaves and flowers.
 All outputs (images and videos) are automatically saved inside Google Drive.

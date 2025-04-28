@@ -19,19 +19,19 @@ Video Output: Save the processed motion visualization as .mp4.
 Google Drive Saving: Results are directly saved into Drive folders.
 
 # How It Works
-Mounts your Google Drive.
+Mount Google Drive.
 
-Loads input butterfly video.
+Load input butterfly video.
 
-Crops the video between 14s and 20s.
+Crop the video between 14s and 20s.
 
-Computes dense optical flow on each frame.
+Compute dense optical flow on each frame.
 
-Applies a region mask to restrict motion tracking to the butterfly.
+Apply a region mask to restrict motion tracking to the butterfly.
 
-Filters out low-speed or static motions.
+Filter out low-speed or static motions.
 
-Generates and saves a motion visualization video to Google Drive.
+Generate and save a motion visualization video to Google Drive.
 
 #Requirements
 Python 3.x

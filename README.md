@@ -71,11 +71,9 @@ Contents:
 
 butterfly_wing_motion_masked.mp4 (masked butterfly wing motion visualization)
 
-# Example Result
+#Result
 Only butterfly wings moving are visualized.
-
 Background and flowers are fully masked and hidden.
-
 A clean .mp4 motion video is produced.
 
 ![Result](results/Butterflytracked.gif)

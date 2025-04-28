@@ -1,5 +1,8 @@
 # Butterfly Wing Motion Tracker (Dense Optical Flow with ROI Masking)
 ![Result](results/Butterfly.png)
+![Result](results/Butterflytracked.gif)
+
+
 
 Video Source: https://www.pexels.com/video/a-butterfly-on-a-flower-9672686/
 
@@ -70,5 +73,5 @@ Only butterfly wings moving are visualized.
 Background and flowers are fully masked and hidden.
 A clean .mp4 motion video is produced.
 
-![Result](results/Butterflytracked.gif)
+
 
